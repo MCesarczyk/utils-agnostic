@@ -1,0 +1,26 @@
+{
+  "name": "utils-agnostic",
+  "version": "1.0.0",
+  "description": "utilities applicable to any typescript project - frontend or backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MCesarczyk/utils-agnostic.git"
+  },
+  "keywords": [
+    "utility",
+    "agnostic",
+    "typescript",
+    "frontend",
+    "backend"
+  ],
+  "author": "Michał Cesarczyk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MCesarczyk/utils-agnostic/issues"
+  },
+  "homepage": "https://github.com/MCesarczyk/utils-agnostic#readme"
+}
