@@ -5,9 +5,12 @@
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "npm run test",
-    "build": "tsup index.ts --format cjs,esm --dts",
+    "build": "tsup",
     "lint": "tsc"
   },
   "repository": {
