@@ -2,9 +2,13 @@
   "name": "utils-agnostic",
   "version": "1.0.0",
   "description": "utilities applicable to any typescript project - frontend or backend",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "npm run test"
+    "test": "npm run test",
+    "build": "tsup index.ts --format cjs,esm --dts",
+    "lint": "tsc"
   },
   "repository": {
     "type": "git",
@@ -22,5 +26,9 @@
   "bugs": {
     "url": "https://github.com/MCesarczyk/utils-agnostic/issues"
   },
-  "homepage": "https://github.com/MCesarczyk/utils-agnostic#readme"
+  "homepage": "https://github.com/MCesarczyk/utils-agnostic#readme",
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.2"
+  }
 }
